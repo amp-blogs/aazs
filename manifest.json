@@ -1,10 +1,11 @@
 {
   "name": "All-About-Zodiac-Signs.blogspot.com",
   "short_name": "All About Zodiac Signs",
-  "start_url": "https://all-about-zodiac-signs.blogspot.com/?m=1",
+  "start_url": "/",
   "display": "standalone",
-  "background_color": "#fff",
+  "background_color": "#ffffff",
   "theme_color": "#B00000",
+  "scope": "/",
   "description": "Explore every Zodiac Sign. Find out the real personality of a Gemini, a Scorpio or any other sign. As a result, you will learn a lot about yourself.",
   "icons": [{
     "src": "https://cdn.staticaly.com/img/lh3.googleusercontent.com/-P_4au6kDVv0/AAAAAAAAAAI/AAAAAAAACGM/kAqxUFlzWk8/s48-c/photo.png",
