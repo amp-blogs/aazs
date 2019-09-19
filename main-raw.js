@@ -516,3 +516,8 @@ jQuery(document).ready(function(t){"yes"!=t.cookie("popup-email-box")&&(t(".oute
 </b:if>
 //scrolltimer
 var scrollTimer=null;$(window).scroll(function(){var t=$(this).height(),e=t/$(document).height()*t,n=$(this).scrollTop()/($(document).height()-t),i=n*(t-e)+e/2-$("#scroll").height()/2;$("#scroll").css("top",i).text(Math.round(100*n)+"%").fadeIn(100),null!==scrollTimer&&clearTimeout(scrollTimer),scrollTimer=setTimeout(function(){$("#scroll").fadeOut()},1500)}),window.addEventListener("scroll",myFunction);
+//Visitors
+/*var fhs = document.createElement('script');var fhs_id = "5619723";
+var ref = (''+document.referrer+'');var pn =  window.location;var w_h = window.screen.width + " x " + window.screen.height;
+fhs.src = "https://freehostedscripts.net/ocounter.php?site="+fhs_id+"&e1=Online User&e2=Online Users&r="+ref+"&wh="+w_h+"&a=1&pn="+pn+"";
+document.head.appendChild(fhs);document.write("We have <span id='o_"+fhs_id+"'></span> online.");*/
