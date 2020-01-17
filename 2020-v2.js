@@ -52,7 +52,7 @@ function delCookieLocal(_) {
     return checkLocal() ? delLocal(_) : testCookie() ? delCookie(_) : _$_[1]
 }
 
-async function cmnu(_, i) {
+function cmnu(_, i) {
     var r = _$_[21] + i + _$_[22];
     $(_$_[35], _).each(function () {
         var _ = $(this).text(),
