@@ -70,7 +70,7 @@ function cmnu(_, i) {
     })
 }
 
-async function lpost(_) {
+function lpost(_) {
     var t, e = _.find(_$_[38]),
         a = e.html(),
         s = [];
@@ -91,7 +91,7 @@ async function lpost(_) {
     }(a = a.replace(rgx[15], _$_[1]).replace(rgx[16], _$_[1]).replace(/"/g, _$_[73])).length > sumLength && (a = a.substring(0, sumLength) + _$_[74] + l + _$_[75] + o + _$_[76] + _ + _$_[22] + o + _$_[77]), e.html(a), r.attr(_$_[78], _$_[79] + (-1 != r.attr(_$_[49]).indexOf(_$_[80]) ? _$_[81] + r.attr(_$_[49]) + _$_[82] : _$_[57]) + _$_[83])
 }
 
-async function ajaxsrc(a) {
+function ajaxsrc(a) {
     ! function (_) {
         var c = {
                 blogURL: _$_[1],
@@ -130,7 +130,7 @@ async function ajaxsrc(a) {
     }(jQuery)
 }
 
-async function vmode(_) {
+function vmode(_) {
     function t() {
         return s.removeClass(_$_[132]).addClass(_$_[139]), $.removeClass(_$_[18]), i.addClass(_$_[18]), setCookieLocal(a.clist, null, 1e4), delCookieLocal(a.cgrid), !1
     }
@@ -144,7 +144,7 @@ async function vmode(_) {
     }, getCookieLocal(a.clist) && _$_[132] != a.viewdefault ? (t(), delCookieLocal(a.clist)) : getCookieLocal(a.cgrid) && _$_[132] != a.viewdefault ? (e(), delCookieLocal(a.cgrid)) : getCookieLocal(a.clist) ? (t(), delCookieLocal(a.clist)) : getCookieLocal(a.cgrid) ? (e(), delCookieLocal(a.cgrid)) : _$_[132] != a.viewdefault ? (t(), delCookieLocal(a.clist)) : (e(), delCookieLocal(a.cgrid)), $.click(e), i.click(t)
 }
 
-async function cdate() {
+function cdate() {
     $(_$_[146]).each(function () {
         var _ = $(this).attr(_$_[44]),
             t = mName;
@@ -155,7 +155,7 @@ async function cdate() {
     })
 }
 
-async function lMore(_) {
+function lMore(_) {
     var t, e;
     t = jQuery, e = {
         olderPostsLink: _$_[1],
@@ -171,7 +171,7 @@ async function lMore(_) {
     }, e = t.extend({}, e, _), t(window), t(document)
 }
 
-async function pageNavi(_) {
+function pageNavi(_) {
     ! function (s) {
         function t(_) {
             (function (_) {
@@ -187,7 +187,7 @@ async function pageNavi(_) {
             })(_ = parseInt(_.feed.openSearch$totalResults.$t, 10))
         }
 
-        async function a() {
+        function a() {
             var _ = c; - 1 != _.indexOf("/search/label/") && (o = -1 != _.indexOf("?updated-max") ? _.substring(_.indexOf("/search/label/") + 14, _.indexOf("?updated-max")) : -1 != _.indexOf("?max") ? _.substring(_.indexOf("/search/label/") + 14, _.indexOf("?max")) : -1 != _.indexOf("?&max") ? _.substring(_.indexOf("/search/label/") + 14, _.indexOf("?&max")) : _.substr(_.lastIndexOf("/"))), -1 == _.indexOf("?q=") && -1 == _.indexOf(".html") && (-1 == _.indexOf("/search/label/") ? (r = "page", -1 != _.indexOf("max-results=") && -1 != _.indexOf("#PageNo=") ? l.postperpage = _.substring(_.indexOf("max-results=") + 12, _.indexOf("#PageNo=")) : -1 != _.indexOf("max-results=") ? l.postperpage = _.substring(_.indexOf("max-results=") + 12) : l.postperpage = l.postperpage, n = -1 != c.indexOf("#PageNo=") ? c.substring(c.indexOf("#PageNo=") + 8, c.length) : 1, s.get(d + "/feeds/posts/summary?max-results=1&alt=json-in-script", t, "jsonp")) : (r = "label", -1 != _.indexOf("max-results=") && -1 != _.indexOf("#PageNo=") ? l.postperpage = _.substring(_.indexOf("max-results=") + 12, _.indexOf("#PageNo=")) : -1 != _.indexOf("max-results=") ? l.postperpage = _.substring(_.indexOf("max-results=") + 12) : l.postperpage = l.postperpage, n = -1 != c.indexOf("#PageNo=") ? c.substring(c.indexOf("#PageNo=") + 8, c.length) : 1, s.get(d + "/feeds/posts/summary/-/" + o + "?max-results=1&alt=json-in-script", t, "jsonp")))
         }
         var $, i, r, n, o, l = {
@@ -223,13 +223,13 @@ async function pageNavi(_) {
     }(jQuery)
 }
 
-async function chside(_) {
+function chside(_) {
     _.parents(_$_[206]).length && sSide && (_ = $(_$_[207]).height() + $(_$_[208]).height() + $(_$_[209]).height() + 30, $(_$_[210]).css({
         height: _
     }))
 }
 
-async function thewid(_, t) {
+function thewid(_, t) {
     var e, a = _.attr(_$_[211]),
         s = _.attr(_$_[212]),
         $ = void 0 !== _.attr(_$_[213]) ? _.attr(_$_[213]) : _$_[1],
@@ -271,7 +271,7 @@ async function thewid(_, t) {
     }), _.removeAttr(_$_[240])
 }
 
-async function discall(t, _, e) {
+function discall(t, _, e) {
     _.addClass(e), t.html(rgx[33]), postscribe(_$_[241], _$_[242] + dsqsn + _$_[243] + mx.dsq + _$_[244], {
         done: function () {
             var _ = $(_$_[241]).html().replace(rgx[13], _$_[1]);
@@ -282,7 +282,7 @@ async function discall(t, _, e) {
     })
 }
 
-async function flicall(t, _, e) {
+function flicall(t, _, e) {
     _.addClass(e), t.html(rgx[33]), postscribe(_$_[248], _$_[249] + mx.fl + _$_[250] + dO + _$_[251], {
         done: function () {
             var _ = $(_$_[248]).html().replace(rgx[14], _$_[1]);
@@ -291,11 +291,11 @@ async function flicall(t, _, e) {
     })
 }
 
-async function crcom(_, t, e) {
+function crcom(_, t, e) {
     _.html(rgx[33]), t.addClass(e), _.RCom()
 }
 
-async function fbsdk() {
+function fbsdk() {
     var _, t, e, a;
     _ = document, t = _$_[261], e = _$_[262], a = _.getElementsByTagName(t)[0], _.getElementById(e) || ((_ = _.createElement(t)).id = e, _.src = _$_[263] + fblang + _$_[264], a.parentNode.insertBefore(_, a)), window.fbAsyncInit = function () {
         FB.init({
